@@ -1,0 +1,102 @@
+<html>
+
+<head>
+    <meta charset="utf-8" />
+    <title> Html con tablas </title>
+    <meta name="description" content="Soy Html, el mas importante de todos" />
+    <meta name="keywords" content="Importante, yo importante, tu importante" />
+    <meta name="author" content="Nicolás Pérez" />
+    <meta name="copyright" content="Licencia GPL" />
+    <meta name="robots" content="index" />
+    <style>
+        .test {
+            background-color: darkcyan
+        }
+    </style>
+</head>
+
+<body>
+    <nav> Nav</nav>
+    <header> header</header>
+    <aside> aside</aside>
+    <section>
+        <div class="test">
+            Soy un div dentro de la seccion
+        </div>
+        <table style="border: solid" ; width=100%>
+            <thead>
+                <th>
+                    Nombre
+
+                </th>
+                <th>
+                    Apellido
+                </th>
+                <th> Edad</th>
+            </thead>
+            <tbody>
+                <tr>
+                    <td>
+                        Nicolás
+                    </td>
+                    <td>
+                        Pérez
+                    </td>
+                    <td>
+                        18
+                    </td>
+
+                </tr>
+                <tr>
+                    <td>
+                        Daniel
+                    </td>
+                    <td>
+                        Perez
+                    </td>
+                    <td>
+                        59
+                    </td>
+                </tr>
+            </tbody>
+        </table>
+   <footer class="test">
+    test
+</footer>
+ </section>
+
+<section>
+    <br>
+    <br>
+    <br>
+    <!-- METODOS
+        GET= Envia la informacion del formulario por la !!!URL!!!
+        POST= Envia la informacion del formulario !!!!OCULTA!!!!
+
+    -->
+    <div class="test">
+    <form action="completo.html" method="GET">
+        <input type="text" name="Nombre"/>
+        <select name="País">
+            <option>
+                Uruguay
+            </option>
+                <option>
+                    Brasil
+    
+                </option>
+                <option>
+                    Argentina
+                </option>
+        </select>
+        <textarea name="Descripción">
+
+        </textarea>
+        <button type="submit">Enviar</button>
+    </form>
+</div>
+
+</section>
+</body>
+
+</html>
