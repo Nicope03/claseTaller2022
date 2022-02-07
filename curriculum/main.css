@@ -1,0 +1,18 @@
+h1{
+    font-family: 'Share Tech Mono', monospace;
+    font: size 50;
+}
+
+h3{
+    font-family: 'Bebas Neue', cursive;
+    font-size:36;                                                                                                                                      
+}
+li{
+    font-family: 'Blinker', sans-serif;
+    font-size: 20px;
+}
+tr{
+    border:hidden;
+}
+td{border: 2px solid black;
+}
