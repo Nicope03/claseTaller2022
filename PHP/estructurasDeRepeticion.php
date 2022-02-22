@@ -31,4 +31,13 @@ if ($i >=5){
         for($i=0; $i <= 5; $i++)
         echo "El numero vale:" .$i. "<br/>";
 ?>
+<?php
+do{
+
+    $x= $x + 2;
+    if ($x%2==0){
+        echo "<h1> Soy numero::"
+    }
+}
+?>
         </html>
